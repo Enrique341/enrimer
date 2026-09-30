@@ -1,0 +1,33 @@
+IMPORTADORA DE REPUESTOS LA ROCA — versión profesional
+========================================================
+Páginas: inicio, catálogo, motos, repuestos, accesorios, nosotros y contacto.
+Diseño responsive con paleta negra, roja y blanca, animaciones suaves, entrada al desplazarse, menú móvil, botón flotante de WhatsApp, botón para volver arriba y filtros del catálogo.
+WhatsApp configurado: 939 017 959 (enlace internacional 51939017959).
+Ubicación indicada: Jr. Daniel Alcides Carrión N.° 343, Satipo, Junín, frente al Hospital Manuel Ángel Higa Arakaki.
+Mapa: abre una búsqueda de Google Maps por dirección; revisa que el marcador coincida con el local exacto antes de publicar.
+assets/img/ing.png: imagen ilustrativa generada para el concepto KAYO T4 300; no es una fotografía oficial verificada del modelo.
+assets/img/logo.png: recorte del logo proporcionado por el cliente.
+Para probar: abre esta carpeta en VS Code, abre index.html y pulsa Go Live.
+Nota: las imágenes de productos son ilustrativas hasta que se sustituyan por fotografías reales del inventario.
+
+
+MEJORA ULTRA — 29/09/2026
+=========================
+- Se incorporó un mapa de Google Maps incrustado en index.html casi al final de la página, con botones de ruta y búsqueda.
+- Se reforzó la accesibilidad: enlace para saltar al contenido, estados de foco visibles, menú móvil que cierra con Escape y soporte para reducir movimiento.
+- Se añadieron medidas del lado del navegador: Content Security Policy mediante meta tag, bloqueo de objetos, restricción de formularios/base URI, actualización a HTTPS y rel=noopener/noreferrer para enlaces externos.
+- El JavaScript evita inyección de HTML al renderizar mensajes de filtros y limita la longitud del texto enviado a WhatsApp.
+- Importante: los encabezados HTTP estrictos (HSTS, X-Frame-Options, Permissions-Policy, etc.) deben configurarse en el hosting; un sitio estático abierto con Live Server no puede imponerlos por sí solo.
+- La CSP es una defensa adicional, no sustituye HTTPS, revisión del hosting ni pruebas en el navegador.
+- El mapa es una búsqueda de Google Maps por la dirección facilitada y debe verificarse visualmente para confirmar el pin exacto.
+- No se implementa checkout ni formulario que recoja datos sensibles; las consultas comerciales se hacen por WhatsApp.
+
+REDISEÑO PROFESIONAL — 30/09/2026
+==================================
+- Rediseño visual completo manteniendo la identidad negro, rojo y blanco.
+- Nueva portada orientada a una importadora/motorepuestos, con jerarquía comercial más fuerte.
+- Navegación sticky con transparencia y blur, tarjetas premium y responsive reforzado.
+- Se añadió contexto empresarial verificable: inicio de actividades en 2016, domicilio fiscal en Jr. Daniel A. Carrión 343, Satipo, y actividad vinculada a motocicletas, repuestos, piezas y accesorios.
+- No se han inventado precios, inventario, marcas adicionales ni stock.
+- Se conserva el WhatsApp que ya estaba configurado en el proyecto original.
+- Las fotos existentes siguen siendo referenciales hasta ser reemplazadas por fotografías reales del negocio/productos.
